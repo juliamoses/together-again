@@ -1,0 +1,63 @@
+<clr-main-container>
+	<header class="body">
+		<div class="branding">
+			<a class="nav-link">
+				<h3 class="body">Together Again</h3>
+			</a>
+		</div>
+	</header>
+	<div class="content-container">
+		<div class="content-area">
+      <div class="main-page">
+        <h4 class="main-page-head">Together Again</h4>
+        <ul>
+          <p>tl;dr — you’re invited to contribute or participate in a multi-platform digital playground trying to pass off as a house party. Bring your usb, your box wine, your work or the book you're reading.</p>
+          <span>We’ll make it work.</span>
+        </ul>
+      </div>
+      <div class="sideNav-container">
+        <clr-vertical-nav  class="vertical-nav">
+          <clr-vertical-nav-group title="zzz"
+            [clrVerticalNavGroupExpanded]="expanded[0]"
+            (clrVerticalNavGroupExpandedChange)="toggle($event, 0)">
+            chatroom
+            <clr-vertical-nav-group-children>
+              <a clrVerticalNavLink href="javascript://" title="aaa">
+                'zoom link'
+              </a>
+            </clr-vertical-nav-group-children>
+          </clr-vertical-nav-group>
+          <a clrVerticalNavLink href="javascript://" title="xxx">
+            audio
+          </a>
+          <a clrVerticalNavLink href="javascript://" title="yyy">
+            video
+          </a>
+          <clr-vertical-nav-group title="zzz"
+            [clrVerticalNavGroupExpanded]="expanded[1]"
+            (clrVerticalNavGroupExpandedChange)="toggle($event, 1)">
+            text
+            <clr-vertical-nav-group-children>
+              <a clrVerticalNavLink href="javascript://" title="aaa">
+                letter
+              </a>
+              <a clrVerticalNavLink href="javascript://" title="bbb">
+                manifesto
+              </a>
+            </clr-vertical-nav-group-children>
+          </clr-vertical-nav-group>
+          <clr-vertical-nav-group title="zzz"
+            [clrVerticalNavGroupExpanded]="expanded[2]"
+            (clrVerticalNavGroupExpandedChange)="toggle($event, 2)">
+            about
+            <clr-vertical-nav-group-children>
+              <a clrVerticalNavLink href="javascript://" title="aaa">
+                contact
+              </a>
+            </clr-vertical-nav-group-children>
+          </clr-vertical-nav-group>
+        </clr-vertical-nav>
+      </div>
+		</div>
+	</div>
+</clr-main-container>

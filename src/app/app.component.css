@@ -1,0 +1,47 @@
+.body {
+  background-color: #a88e3e;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+.content-area {
+  display: flex;
+  flex: 1;
+  position: relative;
+  background-color: #a88e3e;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-page {
+  padding-left: 262px;
+  background-color: #a88e3e;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.main-page-head {
+  background-color: #a88e3e;
+  color: black;
+  font-family: "Times New Roman", Times, serif;
+}
+
+.sideNav-container {
+  font-family: "Times New Roman", Times, serif;
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: black;
+  bottom: 0;
+  width: 262px;
+  background: #a88e3e;
+  display: flex;
+  background-color: #a88e3e;
+}
+
+.vertical-nav {
+  font-family: "Times New Roman", Times, serif;
+  min-width: 262px;
+  color: black;
+  background-color: #a88e3e;
+}
+
